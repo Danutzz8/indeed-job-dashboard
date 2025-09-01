@@ -25,28 +25,33 @@ git clone https://github.com/yourusername/indeed-job-dashboard.git
 cd indeed-job-dashboard
 ```
 2. **Create a virtual environment:**
+   ```bash
    python -m venv .venv
 
 4. **Activate the virtual environment:**
+   ```bash
    .\.venv\Scripts\activate
    
-6. **Install the dependencies: **
+6. **Install the dependencies:**
+   ```bash
    pip install -r requirements.txt
 If you don’t have a requirements.txt file yet, create one with:
-
+```bash
 dash
 dash-bootstrap-components
 pandas
 plotly
 python-jobspy
-
-8. **Usage **
+```
+8. **Usage**
+   ```bash
    python app.py
 
-10. **Open your browser and go to: **
+10. **Open your browser and go to:**
+    ```bash
  http://127.0.0.1:8050/
 
-12. **Project Structure **
+12. **Project Structure**
   indeed-job-dashboard/
 │
 ├── app.py               # Main Dash application
