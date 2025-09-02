@@ -56,6 +56,7 @@ python-jobspy
   indeed-job-dashboard/
 
 │
+
 ├── app.py               # Main Dash application
 
 ├── scraper.py           # Contains scrape_jobs_df() function
