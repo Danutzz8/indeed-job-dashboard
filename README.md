@@ -52,13 +52,19 @@ python-jobspy
  http://127.0.0.1:8050/
 
 12. **Project Structure**
-     ```bash
+  
   indeed-job-dashboard/
+
 │
 ├── app.py               # Main Dash application
+
 ├── scraper.py           # Contains scrape_jobs_df() function
+
 ├── .venv/               # Python virtual environment
+
 ├── README.md            # Project documentation
+
 └── requirements.txt     # Python dependencies
+
 
 <img width="3502" height="1307" alt="image" src="https://github.com/user-attachments/assets/1356fced-a34e-474f-9069-2b95d95b1eb1" />
